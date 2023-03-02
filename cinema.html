@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmazingEvents</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-warning-subtle">
+    <!--Navegador-->
+    <nav class="navbar bg-warning navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./Assets/Logo.png" alt="Logo" width="100" height="24" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Events
+                        </a>
+                        <ul class="dropdown-menu bg-black">
+                            <li><a class="dropdown-item" href="upcomingEvents.html">Upcoming Events</a></li>
+                            <li><a class="dropdown-item" href="pastEvents.html">Past Events</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="stats.html">Stats</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--Carusel-->
+    <div class="text-bg-dark p-3">
+        <h2>Cinema</h2>
+    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Assets/Cinema.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Cinema</h5>
+                    <p>Movies premieres and theater hours</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Assets/Costume_Party.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Costume Party</h5>
+                        <p>Schedule of activities to be developed within the framework of the month's celebrations</p>
+                    </div>
+                </div>
+            <div class="carousel-item">
+                <img src="./Assets/Food_Fair.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Food Fair</h5>
+                    <p>Festival of typical foods from different places</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Assets/Marathon.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Race</h5>
+                    <p>Racing schedule</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Assets/Museum_Tour.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Museum Tour</h5>
+                    <p>Attraction of most popular places of interest</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Assets/Music_Concert.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Music Concert</h5>
+                    <p>Find tickets to all live music, tour dates and festivals</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Main-->
+    <main class="container bg-warning-subtle">
+       <!--Botones de navegacion-->
+       <div class="botones p-3">
+            <a class="btn btn-dark" href="cinema.html" role="button">
+                <h5>
+                    <img src="./Assets/ticket.png" alt="Logo" width="16" height="16" class="logosnav">
+                    Cinema
+                </h5>
+            </a>
+            <a class="btn btn-dark" href="costumeParty.html" role="button">
+                <h5>
+                    <img src="./Assets/mascara.png" alt="Logo" width="16" height="16" class="logosnav">
+                    Costume Party
+                </h5>
+            </a>
+            <a class="btn btn-dark" href="foodFair.html" role="button">
+                <h5>
+                    <img src="./Assets/food.png" alt="Logo" width="16" height="16" class="logosnav">
+                    Food Fair
+                </h5>
+            </a>
+            <a class="btn btn-dark" href="race.html" role="button">
+                <h5>
+                    <img src="./Assets/maraton.png" alt="Logo" width="16" height="16" class="logosnav">
+                    Race
+                </h5>
+            </a>
+            <a class="btn btn-dark" href="books.html" role="button">
+                <h5>
+                    <img src="./Assets/libros.png" alt="Logo" width="16" height="16" class="logosnav">
+                    Book Exchange
+                </h5>
+            </a>
+            <a class="btn btn-dark" href="museum.html" role="button">
+                <h5>
+                    <img src="./Assets/museo.png" alt="Logo" width="16" height="16" class="logosnav">
+                    Museum Tour
+                </h5>
+            </a>
+            <a class="btn btn-dark" href="musicConcert.html" role="button">
+                <h5>
+                    <img src="./Assets/concierto.png" alt="Logo" width="16" height="16" class="logosnav">
+                    Music Concert
+                </h5>
+            </a>
+        </div>
+        <!--Tarjetas-->
+        <div id="cinema" class="d-flex flex-wrap gap-3 justify-content-center p-3"></div>
+    </main>
+    
+    <!--Footer-->
+    <footer class="d-flex justify-content-center align-items-center bg-warning">
+        <div class="iconos" style= "width: 15rem;" >
+            <a href="#" role="button">
+                <img src="./Assets/iconos/instagram.png" alt="...">
+            </a>
+            <a href="#" role="button">
+                <img src="./Assets/iconos/facebook.png" alt="...">
+            </a>
+            <a href="#" role="button">
+                <img src="./Assets/iconos/whatsapp.png" alt="...">
+            </a>
+        </div>
+        <p>Amazing Events 2023 &reg;</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./data.js"></script>
+    <script src="./cinema.js"></script>
+</body>
+</html>

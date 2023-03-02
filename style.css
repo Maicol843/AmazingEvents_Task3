@@ -1,0 +1,141 @@
+/*index.html*/
+main{
+    min-height: 90vh;
+}
+
+#contenedor-cards-1, #contenedor-cards-2,#contenedor-cards-3,#contenedor-cards-4,#contenedor-cards-5,#contenedor-cards-6{
+    min-height: 50vh;
+}
+
+footer{
+    min-height: 10vh;
+}
+
+footer p{
+    position: absolute;
+    right: 3%;
+}
+
+.iconos{
+    position: absolute;
+    left:3%;
+}
+
+.dropdown-item{
+    color:rgb(255, 217, 0);
+}
+
+#navbarSupportedContent{
+    position: absolute;
+    left: 750px;
+}
+
+h2{
+    color:rgb(255, 252, 58);
+    text-align: center;
+}
+
+.card img{
+    width: 240px;
+    height: 300px;
+}
+
+.container-icono{
+    color:rgb(255, 252, 58);
+    position: absolute;
+    left:565px;
+    top: 65px;    
+}
+
+.card-body{
+    
+    text-align: left;
+}
+
+#carouselExampleSlidesOnly h5{
+    color:rgb(255, 252, 58);
+}
+
+.carousel-item img{
+    width: 600px;
+    height: 500px;
+}
+.card-header h5{
+    color:rgb(255, 252, 58);
+}
+
+.card-canciones{
+    color: rgb(255, 252, 58);
+    position: absolute;
+    left: 300px;
+    top: 75px;
+}
+
+.botones h5{
+    color: rgb(255, 252, 58);
+}
+
+.logosnav{
+    position: relative;
+    top:-2px;
+}
+
+/*Upcoming Events*/
+
+.container-icono1{
+    position: absolute;
+    left:485px;
+    top: 70px;  
+}
+
+/*Past Events*/
+
+.container-icono2{
+    position: absolute;
+    left:520px;
+    top: 70px;  
+}
+
+/*Contact*/
+
+.container-icono3{
+    position: absolute;
+    left:560px;
+    top: 70px;  
+}
+
+.boton{
+    position:absolute;
+    left:650px;
+}
+
+/*Stats*/
+
+.container-icono4{
+    position: absolute;
+    left:575px;
+    top: 70px;  
+}
+
+.table{
+    position:relative;
+    top:50px;
+}
+
+/*Details*/
+
+.card-cine{
+    position:relative;
+    top:50px;
+}
+
+.img-pelicula{
+    position:relative;
+    left: 50px;
+}
+
+.video{
+    position:relative;
+    left: 735px;
+    top:-430px;
+}
