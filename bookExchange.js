@@ -1,4 +1,4 @@
-/*Categoria: Book Exchange*/
+//Categoria: Book Exchange
 
 const contenedorTarjetas = document.querySelector('#bookExchange');
 
@@ -29,3 +29,24 @@ function crearTarjetas(event){
         </div>
     </div>` 
 }
+
+function mensaje(){
+    console.log('click')
+}
+
+const botonHome = document.getElementById('botonHome', 'botonUpcoming', 'botonPast', 'botonContact', 
+'botonStats', 'botonCinema', 'botonCostumeParty', 'botonFoodFair', 'botonRace', 'botonBooksExchange', 
+'botonMuseum', 'botonMusicConcert')
+
+botonHome.addEventListener('click',mensaje);
+botonUpcoming.addEventListener('click',mensaje);
+botonPast.addEventListener('click',mensaje);
+botonContact.addEventListener('click',mensaje);
+botonStats.addEventListener('click',mensaje);
+botonCinema.addEventListener('click',mensaje);
+botonCostumeParty.addEventListener('click',mensaje);
+botonFoodFair.addEventListener('click',mensaje);
+botonRace.addEventListener('click',mensaje);
+botonBooksExchange.addEventListener('click',mensaje);
+botonMuseum.addEventListener('click',mensaje);
+botonMusicConcert.addEventListener('click',mensaje);
