@@ -9,6 +9,8 @@ main{
 
 footer{
     min-height: 10vh;
+    position: relative;
+    top: 80px;
 }
 
 footer p{
@@ -64,13 +66,6 @@ h2{
     color:rgb(255, 252, 58);
 }
 
-.card-canciones{
-    color: rgb(255, 252, 58);
-    position: absolute;
-    left: 300px;
-    top: 75px;
-}
-
 .botones h5{
     color: rgb(255, 252, 58);
 }
@@ -78,6 +73,16 @@ h2{
 .logosnav{
     position: relative;
     top:-2px;
+}
+
+#botonesNav{
+    position: absolute;
+    left: 110px;
+}
+
+#contenedor{
+    position: relative;
+    top: 80px;
 }
 
 /*Upcoming Events*/
@@ -122,20 +127,21 @@ h2{
     top:50px;
 }
 
-/*Details*/
+/*Tarjetas*/
 
-.card-cine{
-    position:relative;
-    top:50px;
+#imagenTarjeta{
+    width: 287px;
 }
 
-.img-pelicula{
-    position:relative;
-    left: 50px;
+#tarjetaDetalle{
+    width: 400px;
+    height: 400px;
 }
 
-.video{
-    position:relative;
-    left: 735px;
-    top:-430px;
+/*Detalle de las tarjetas*/
+
+#botonInicio{
+    position:absolute;
+    top: 500px;
+    left: 640px;
 }
